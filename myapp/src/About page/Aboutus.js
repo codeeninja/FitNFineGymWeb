@@ -43,55 +43,49 @@ export default function Aboutus() {
           </Navbar>
         </div>
       </div>
-      <div className="row  mt-4">
-        <div className=" col-md-12 text-center">
+     
           <img
-            style={{ maxHeight: "380px" }}
+            style={{ maxHeight: "400px",width:'100%' }}
             src="assets/gym2.jpg"
             alt=""
-          />
-        </div>
-      </div>
-      <div className="container">
-      <div className="row mt-3">
-        <h1 className="text-center text-white mt-2 mb-3">About us</h1>
-        <div className="col-md-6 mx-auto">
-          <h3
-            className="text-white mt-4"
-            style={{ fontSize: "15px" }}
-          >
-            Our gym was established in 2019 with the aim of helping people
-            improve their physical health and wellbeing. We believe that
-            everyone deserves the opportunity to live a healthy and active
-            lifestyle, and we are committed to providing a welcoming and
-            inclusive environment for people of all ages and fitness levels. At
-            our gym, we believe that fitness is about more than just physical
-            health – it's about feeling good, both inside and out. That's why we
-            also offer nutritional counseling and support to help you develop
-            healthy eating habits and achieve a balanced lifestyle.
-          </h3>
-        </div>
-        <div className=" col-md-6 mx-auto mb-4">
-          <img
-            style={{ maxWidth:"100%"}}
-            src="assets/gymaboutsection.jpg"
-            alt=""
-          />
-        </div>
-      </div>
-      </div>
-      
+            />
+    
+
+    <div className="container-fluid">
+  <div className="row mt-3">
+    <h1 className="text-center text-white mt-2 mb-3">About us</h1>
+    <div className="col-md-6 mx-auto">
+      <h3 className="text-white mt-4" style={{ fontSize: "15px" }}>
+        Our gym was established in 2019 with the aim of helping people improve
+        their physical health and wellbeing. We believe that everyone deserves
+        the opportunity to live a healthy and active lifestyle, and we are
+        committed to providing a welcoming and inclusive environment for people
+        of all ages and fitness levels. At our gym, we believe that fitness is
+        about more than just physical health – it's about feeling good, both
+        inside and out. That's why we also offer nutritional counseling and
+        support to help you develop healthy eating habits and achieve a balanced
+        lifestyle.
+      </h3>
+    </div>
+    <div className="col-md-6 mx-auto mb-4">
+      <img
+        style={{ maxWidth: "100%" }}
+        src="assets/gymaboutsection.jpg"
+        alt=""
+      />
+    </div>
+  </div>
       <div className="row">
         <h5 className="text-center text-white pt-2 mt-3">JOIN US NOW</h5>
         <div className="col-12 text-center text-white pb-2 bold">
           <h2>
             JOIN US OUR FREE WORKOUT TRAINING <br />
             WITH FIT N FINE GYM
-          </h2>
-        </div>
         {/* <div className="col">hi</div>
         <div className="col">hi2</div>
-        <div className="col">hi3</div> */}
+      <div className="col">hi3</div> */}
+          </h2>
+        </div>
       </div>
    
       <div
@@ -99,11 +93,12 @@ export default function Aboutus() {
         style={{ width: "100%" }}
         >
         <BmiCalculator />
-      </div>
-      <div className=" mt-4 mx-auto" >
+        </div>
+        <div className=" mt-4 mx-auto" >
         <Footer style={{ padding: "12px",
-              width: "100%" }}/>
+        width: "100%" }}/>
       </div>
+      </div>      
 </>
   );
 }

@@ -5,19 +5,14 @@
   font-weight: bold;
 }
 .min-div-img{
-  width: 100%;
   height: 380px;
   border-radius:15px;
-}
-.main-screen{
   width: 100%;
 }
-.gym-intro{
-  justify-content: space-between;
-  color: white;
-}
+
+
 .nav-link {
-  position: relative;
+  
   color: #fff;
   text-decoration: none;
 }
